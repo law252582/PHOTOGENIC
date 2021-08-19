@@ -1,0 +1,313 @@
+@import "./common/all.css";
+@import "./common/header.css";
+@import "./common/banner.css";
+@import "./common/footer.css";
+
+.big_title{
+  margin: 50px auto 5px;
+  width: 1200px;
+  text-align: center;
+  position: relative;
+}
+.big_title:after{
+  content: "";
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #2f7bb7;
+  width: 55px;
+  height: 4px;
+}
+div.personal_bg{
+  display: block;
+  width: 1137px;
+  height: 367px;
+  margin: 20px auto;
+  position: relative;
+  text-align: center;
+}
+div.personal_bg img{
+  width: 1137px;
+  height: 367px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+div.personal_bg div.personal__word{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  color: white;
+  background-color: hsla(0, 0%, 0%, .5);
+}
+div.personal_bg div.personal__word .p_word{
+  margin: 40px auto;
+}
+div.personal_bg div.personal__word a{
+  text-decoration: none;
+  border: 3px solid white;
+  color: white;
+  padding: 5px 40px;
+  border-radius: 40px;
+}
+div.personal_bg div.personal__word a:hover{
+  color: #C5C5C5;
+  border: 3px solid #C5C5C5;
+}
+div.design_bg{
+  display: block;
+  width: 1137px;
+  height: 367px;
+  margin: 20px auto;
+  position: relative;
+  text-align: center;
+}
+div.design_bg img{
+  width: 1137px;
+  height: 367px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+div.design_bg div.design__word{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  color: white;
+  background-color: hsla(0, 0%, 0%, .5);
+}
+div.design_bg div.design__word .d_word{
+  margin: 40px auto;
+}
+div.design_bg div.design__word a{
+  text-decoration: none;
+  border: 3px solid white;
+  color: white;
+  padding: 5px 40px;
+  border-radius: 40px;
+}
+div.design_bg div.design__word a:hover{
+  color: #C5C5C5;
+  border: 3px solid #C5C5C5;
+}
+div.design_slide{
+  width: 1137px;
+  height: 230px;
+  margin: 0 auto;
+  font-size: 0;
+  position: relative;
+}
+div.design_slide ul.d_slide_list{
+  display: inline-flex;
+  list-style: none;
+  padding: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: space-between;
+  width: 850px;
+}
+div.design_slide ul.d_slide_list > li{
+  display: inline-block;
+  font-size: 16px;
+  width: 156px;
+  height: 199px;
+  box-shadow: 5px 5px 5px #545454;
+}
+div.design_slide ul.d_slide_list > li a img{
+  width: 156px;
+  height:199px;
+}
+.left_arrow{
+  width: 65px;
+  height: 65px;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: white;
+  box-shadow: 2px 2px 5px #545454;
+  position: absolute;
+  top: 50%;
+  left: 85px;
+  transform: translateY(-50%);
+  z-index: 3;
+}
+.left_arrow img{
+  width: 100%;
+  height: 100%;
+}
+.right_arrow{
+  width: 65px;
+  height: 65px;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: white;
+  box-shadow: 2px 2px 5px #545454;
+  position: absolute;
+  top: 50%;
+  right: 85px;
+  transform: translateY(-50%);
+  z-index: 3;
+}
+.right_arrow img{
+  width: 100%;
+  height: 100%;
+}
+div.co_branding_bg{
+  display: block;
+  width: 1137px;
+  height: 367px;
+  margin: 20px auto 0px;
+  position: relative;
+  text-align: center;
+}
+div.co_branding_bg img{
+  width: 1137px;
+  height: 367px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+div.co_branding_bg div.co_branding__word{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  color: white;
+  background-color: hsla(0, 0%, 0%, .5);
+}
+div.co_branding_bg div.co_branding__word .c_word{
+  margin: 35px auto;
+}
+div.co_branding_bg div.co_branding__word a{
+  text-decoration: none;
+  border: 3px solid white;
+  color: white;
+  padding: 5px 40px;
+  border-radius: 40px;
+}
+div.co_branding_bg div.co_branding__word a:hover{
+  color: #C5C5C5;
+  border: 3px solid #C5C5C5;
+}
+div.co_branding_banner{
+  display: block;
+  width: 1137px;
+  margin: 0 auto 80px;
+  font-size: 0;
+  position: relative;
+}
+div.co_branding_banner a img:first-child{
+  width: 1137px;
+}
+.b_button{
+  border-radius: 20px;
+  background-color: #2f7bb7;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  padding: 5px 40px;
+  position: absolute;
+  right: 120px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.b_button:hover{
+  color: #C5C5C5;
+  background-color: #3B77A7;
+}
+.f_button{
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 0;
+}
+.f_button div{
+  display: inline-block;
+  position: relative;
+}
+.f_1{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 30px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  margin: 140px auto 0;
+  z-index: 3;
+}
+.f_1_1{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  margin: 180px auto 0;
+  z-index: 3;
+}
+.f_1_1_bg{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-color: hsla(0, 0%, 0%, .4);
+  z-index: 2;
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.f_2{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 30px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  margin: 140px auto 0;
+  z-index: 3;
+}
+.f_2_2{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  margin: 180px auto 0;
+  z-index: 3;
+}
+.f_2_2_bg{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-color: hsla(0, 0%, 0%, .4);
+  z-index: 2;
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

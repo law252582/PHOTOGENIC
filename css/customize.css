@@ -1,0 +1,174 @@
+@import "./common/all.css";
+@import "./common/header.css";
+@import "./common/footer.css";
+
+.product:after{
+  content: "";
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #2f7bb7;
+  width: 30px;
+  height: 4px;
+}
+.customize_banner{
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  font-size: 0;
+}
+.customize_banner p{
+  border: 1px solid blue;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  background-color: hsla(0, 0%, 0%, .5);
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding-top: 165px;
+  padding-bottom: 165px;
+}
+.customize_make{
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 0;
+  position: relative;
+}
+.left_make{
+  display: inline-block;
+}
+.left_make img:first-child{
+  width: 600px;
+  height: 600px;
+}
+.left_make img:last-child{
+  width: 168px;
+  height: 48px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.right_make{
+  font-size: 1rem;
+  display: inline-block;
+  width: 600px;
+  height: 600px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  border-left: 1px solid black;
+}
+.right_make p{
+  text-align: center;
+  font-size: 25px;
+  position: relative;
+  margin-top: 80px;
+}
+.right_make p:after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #2f7bb7;
+  width: 50px;
+  height: 4px;
+}
+.right_make_picbutton{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+.right_make_uploadpic{
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  margin: 0 30px;
+  text-align: left;
+}
+.right_make_uploadpic img{
+  width: 215px;
+  height: 130px;
+  border-radius: 10px;
+}
+.right_make_uploadpic li{
+  margin: 5px 0;
+  cursor: pointer;
+}
+.right_make_uploadpic li:nth-child(2){
+  font-weight:bold;
+}
+.right_make_uploadpic li:last-child{
+  font-size: 14px;
+}
+.nextstep{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 65px;
+}
+.nextstep button{
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: #444444;
+  font-size: 20px;
+  border: 1px solid #444444;
+  cursor: pointer;
+}
+.makestep{
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 0;
+}
+.bottom_make{
+  display: inline-block;
+}
+.bottom_make ul{
+  list-style: none;
+  padding: 0;
+  font-size: 0;
+  position: relative;
+  background: hsla(0, 0%, 0%, .8);
+  z-index: 2;
+}
+.bottom_make ul li{
+  font-size: 16px;
+}
+.bottom_make li:first-child{
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+}
+.bottom_make li:nth-child(2){
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  z-index: 3;
+}
+.bottom_make li:last-child{
+  background-color: hsla(0, 0%, 0%, .5);
+  width: 300px;
+  height: 476px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bottom_make img{
+  vertical-align: top;
+}
